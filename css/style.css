@@ -1,0 +1,726 @@
+#backFon{
+	position: absolute;
+	background-color: #00BFFF;
+	width:900px;
+	height:780px;
+}
+.inText{
+	position: absolute;
+	background-color: #8B4513;
+	color:antiquewhite;
+	text-align: center;
+	font-weight: bold;
+	font-size: 38px;
+	width:300px;
+	height:190px;
+	top:30px;
+	left:280px;
+}
+.startGame{
+	position: absolute;
+	background-color:#4169E1;
+	color:white; 
+	text-align: center;
+	font-size: 20px;
+	width:300px;
+	height:110px;
+	top:250px;
+	left:280px;
+}
+#knopka1{
+	position: absolute;
+	background-color: black;
+	width:10px;
+	height:10px;
+	top:35px;
+	left:285px;
+}
+#knopka2{
+	position: absolute;
+	background-color: black;
+	width:10px;
+	height:10px;
+	top:35px;
+	left:567px;
+}
+#knopka3{
+	position: absolute;
+	background-color: black;
+	width:10px;
+	height:10px;
+	top:207px;
+	left:285px;
+}#knopka4{
+	position: absolute;
+	background-color: black;
+	width:10px;
+	height:10px;
+	top:207px;
+	left:567px;
+}
+.mario{
+	background-color: #00BFFF;
+	position: absolute;
+	width:86px;
+	height:86px;
+	top:380px;
+	left:384px;
+}
+#fon{
+	position: absolute;
+	width:15000px;
+	height:1000px;
+}
+#backImage{
+	position: absolute;
+	width:900px;
+	height:780px;
+
+}
+#control{
+	position: absolute;
+	background-color: #453453;
+	color: white;
+	font-size: bold;
+	text-align: center;
+	width: 98px;
+	height: 39px;
+	top: 410px;
+	left: 741px;
+}
+#erkinq1, #erkinq2, #erkinq3, #erkinq4, #erkinq5, #erkinq6, #erkinq7, #erkinq8, #erkinq9, #erkinq10{
+	position: absolute;
+	width:1500px;
+	height:1000px;
+}
+#erkinq2{
+	left:1500px;
+}
+#erkinq3{
+	left: 3000px;
+}
+#erkinq4{
+	left:4500px;
+}
+#erkinq5{
+	left: 6000px;
+}
+#erkinq6{
+	left: 7500px;
+}
+#erkinq7{
+	left: 9000px;
+}
+#erkinq8{
+	left: 10500px;
+}
+#erkinq9{
+	left: 12000px;
+}
+#erkinq10{
+	left: 13500px;
+}
+#hatak{
+	position: absolute;
+	width: 4700px;
+	height: 50px;
+	top: 847px;
+	left: 0px;
+	background-color: black;
+
+}
+#hatak1{
+	position: absolute;
+	width: 1199px;
+	height: 50px;
+	top: 847px;
+	left: 4900px;
+	background-color: black;
+
+}
+#marioPixel{
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	top: 775px;
+	left: 5px;
+}
+#kria{
+	position: absolute;
+	width: 61px;
+	height: 69px;
+	top: 777px;
+	left: 644px;
+}
+#sekret1{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 656px;
+	left: 930px;
+}
+#erkanXot1{
+	position: absolute;
+	width: 228px;
+	height: 53px;
+	top:794px;
+	left:316px;
+}
+#erkanXot2{
+	position: absolute;
+	width: 228px;
+	height: 53px;
+	top:794px;
+	left:632px;
+}
+#strelkaUp{
+	position: absolute;
+	width: 90px;
+	height: 108px;
+	top: 100px;
+	left: 115px;
+}
+#strelkaLeft{
+	position: absolute;
+	width: 108px;
+	height: 114px;
+	top: 196px;
+	left: 105px;
+}
+#strelkaRight{
+	position: absolute;
+	width: 108px;
+	height: 114px;
+	top: 300px;
+	left: 105px;
+}
+#controlUp, #controlLeft, #controlRight, #coinText, #enemyText, #backMenu{
+	position: absolute;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#controlUp{
+	width: 112px;
+	height: 17px;
+	top: 127px;
+	left: 265px;
+}
+#controlLeft{
+	width: 112px;
+	height: 17px;
+	top: 241px;
+	left: 265px;
+}
+#controlRight{
+	width: 112px;
+	height: 17px;
+	top: 332px;
+	left: 265px;
+}
+#coinControl{
+	position: absolute;
+	width: 69px;
+	height: 102px;
+	top: 418px;
+	left: 125px;
+}
+#coinText{
+	width: 112px;
+	height: 56px;
+	top: 436px;
+	left: 265px;
+}
+#kriaControl{
+	position: absolute;
+	width: 69px;
+	height: 102px;
+	top: 541px;
+	left: 56px;
+}
+#sunkControl{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 586px;
+	left: 167px;
+}
+#enemyText{
+
+	width: 112px;
+	height: 56px;
+	top: 586px;
+	left: 265px;
+}
+#backMenu{
+
+	width: 108px;
+	height: 39px;
+	top: 656px;
+	left: 662px;
+}
+#point, #gameTime{
+	position: fixed;
+	background-color: green;
+	color: yellow;
+	font-size: 20px;
+	text-align: center;
+	width: 147px;
+	height: 30px;
+	left: 52px;
+	
+}
+#point{
+	top: 42px;
+}
+#gameTime{
+	top: 90px;
+}
+#zvuk{
+	position: fixed;
+	background-color: green;
+	color: yellow;
+	font-size: 20px;
+	text-align: center;
+	width: 147px;
+	height: 30px;
+	left: 1200px;
+	top: 42px;
+}
+#onZvuk, #offZvuk{
+	position: fixed;
+	background-color: green;
+	color: yellow;
+	font-size: 20px;
+	text-align: center;
+	width: 73.5px;
+	height: 30px;
+	top: 72px;
+}
+#onZvuk{
+	left: 1200px;
+}
+#offZvuk{
+	left: 1273.5px;
+}
+#kubik1{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 1500px;
+}
+#sekret2{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 1557px;
+}
+#kubik2{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 1612px;
+}
+#sekret3{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 1668px;
+}
+#kubik3{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 1724px;
+}
+#sekret4{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 409px;
+	left: 1615px;
+}
+/*#sunk1{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 788px;
+	left: 2115px;
+}*/
+#truba1{
+	position: absolute;
+	width: 72px;
+	height: 92px;
+	top: 755px;
+	left: 2365px;
+}
+#truba2{
+	position: absolute;
+	width: 72px;
+	height: 130px;
+	top: 716px;
+	left: 2839px;
+}
+#erkanXot3{
+	position: absolute;
+	width: 228px;
+	height: 53px;
+	top:794px;
+	left:2922px;
+}
+#erkanXot4{
+	position: absolute;
+	width: 228px;
+	height: 53px;
+	top:794px;
+	left:3161px;
+}
+#truba3{
+	position: absolute;
+	width: 83px;
+	height: 180px;
+	top: 665px;
+	left: 3406px;
+}
+.sunk{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+
+}
+.kria{
+	position: absolute;
+	width: 60px;
+	height: 79px;
+
+}
+#truba4{
+	position: absolute;
+	width: 83px;
+	height: 180px;
+	top: 665px;
+	left: 4206px;
+}
+#menakXot1{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 795px;
+	left: 3506px;
+}
+#menakXot2{
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 795px;
+	left: 3610px;
+}
+#propast1{
+	position: absolute;
+	width: 200px;
+	height: 157px;
+	top:843px;
+	left:4700px;
+	background-color: yellow;
+}
+#mah1{
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	top:1000px;
+	left:4700px;
+	background-color: white;
+}
+#kubik4{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 5300px;
+}
+#sekret5{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 5356px;
+}
+#kubik5{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 5412px;
+}
+#kubik6{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5552px;
+}
+#kubik7{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5608px;
+}
+#kubik8{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5664px;
+}
+#kubik9{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5720px;
+}
+#kubik10{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5776px;
+}
+#kubik11{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5832px;
+}
+#kubik12{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5888px;
+}
+#kubik13{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 460px;
+	left: 5944px;
+}
+#propast2{
+	position: absolute;
+	width: 200px;
+	height: 157px;
+	top:843px;
+	left:6100px;
+	background-color: yellow;
+}
+#mah2{
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	top:1000px;
+	left:6100px;
+	background-color: white;
+}
+#hatak2{
+	position: absolute;
+	width: 3599px;
+	height: 50px;
+	top: 847px;
+	left: 6300px;
+	background-color: black;
+
+}
+#kubik14{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 6700px;
+}
+#sekret6{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 6700px;
+}
+#kubik15{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 6644px;
+}
+#kubik16{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 6588px;
+}
+#kubik17{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 6532px;
+}
+#sekret7{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 7250px;
+}
+#sekret8{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 7474px;
+}
+#sekret9{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 7614px;
+}
+#sekret10{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 7754px;
+}
+#sekret11{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 7614px;
+}
+#kubik18{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 8500px;
+}
+#kubik19{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 8556px;
+}
+#kubik20{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 8612px;
+}
+#kubik21{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 9000px;
+}
+#sekret12{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 9056px;
+}
+#sekret13{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 9112px;
+}
+#kubik22{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 9168px;
+}
+#kubik23{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 400px;
+	left: 9168px;
+}
+#kubik24{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 9056px;
+}
+#kubik25{
+	position: absolute;
+	width: 56px;
+	height: 57px;
+	top: 656px;
+	left: 9112px;
+}
+#rightQar{
+	position: absolute;
+	width: 199px;
+	height: 200px;
+	top: 647px;
+	left: 9700px;
+}
+#leftQar{
+	position: absolute;
+	width: 199px;
+	height: 200px;
+	top: 647px;
+	left: 10000px;
+}
+#propast3{
+	position: absolute;
+	width: 101px;
+	height: 157px;
+	top:843px;
+	left:9899px;
+	background-color: yellow;
+}
+#mah3{
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	top:1000px;
+	left:9899px;
+	background-color: white;
+}
+#hatak3{
+	position: absolute;
+	width: 3599px;
+	height: 50px;
+	top: 847px;
+	left: 10001px;
+	background-color: black;
+
+}
+#verch{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 347px;
+	left: 10918px;
+}
