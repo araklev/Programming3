@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     MainMenu();
     function MainMenu() {
         var all = $("<div/>").attr("id", "backFon").appendTo("body");
@@ -20,13 +20,13 @@ $(document).ready(function() {
         var timeoutGame = $("#start")
         var timeoutControl = $("#control")
         var clickSound = $("<audio/>").attr("src", "sounds/click.wav").appendTo("body");
-       
-        timeoutGame.click(function() {
+
+        timeoutGame.click(function () {
             changeView();
             clickSound[0].play();
         });
 
-        timeoutControl.click(function() {
+        timeoutControl.click(function () {
             Control();
             clickSound[0].play();
         })
@@ -54,11 +54,11 @@ $(document).ready(function() {
         var backMenu = $("<button/>").attr("id", "backMenu").text("BACK TO MENU").appendTo(controlFon);
         var timeoutbackMenu = $("#backMenu");
         var clickSound = $("<audio/>").attr("src", "sounds/click.wav").appendTo("body");
-        timeoutbackMenu.click(function() {
-            
-                MainMenu();
-                clickSound[0].play();
-            
+        timeoutbackMenu.click(function () {
+
+            MainMenu();
+            clickSound[0].play();
+
         })
     }
 });
